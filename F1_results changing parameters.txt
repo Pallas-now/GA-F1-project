@@ -1,0 +1,184 @@
+default:
+selection method = 'Fittest Half'
+pairing method = 'Fittest'
+mating method='Single Point'
+
+
+#Change the fittest pairing method#
+
+Number of run: 50
+Number of pitstop: 2
+Range of mutation: 10
+Mutation cutoff: 0.5
+Fitness similarity: 100
+The best individual: ['H', 28, 'S', 43, 'S']
+The time: 4990.0
+
+[1,2][2,3][3,4]
+The average number of generation: 162.42
+
+[1,2][2,3][3,1]
+The average number of generation: 140.18
+
+
+After changing  the fittest pairing method to [1,2][2,3][3,1]
+
+
+#Change the number of run#
+
+Number of pitstop: 2
+Range of mutation: 10
+Mutation cutoff: 0.5
+Fitness similarity: 25
+The best individual: ['H', 28, 'S', 43, 'S']
+The time: 4990.0
+
+Number of run: 50
+The average number of generation: 49.34
+
+Number of run: 100
+The average number of generation: 47.98
+
+
+#Change the number of pitstop#
+
+Number of run: 50
+Range of mutation: 10
+Mutation cutoff: 0.5
+Fitness similarity: 50
+
+Number of pitstop: 1
+The average number of generation: 56.16
+The best individual: ['H', 32, 'H']
+The time: 4994.52
+
+Number of pitstop: 2
+The average number of generation: 84.2
+The best individual: ['H', 28, 'S', 43, 'S']
+The time: 4990.0
+
+Number of pitstop: 3
+The average number of generation: 105.2
+The best individual: ['M', 19, 'S', 32, 'S', 45, 'S']
+The time: 4991.56
+
+
+#Change the mutation cutoff#
+
+Number of run: 50
+Number of pitstop: 2
+Range of mutation: 10
+Fitness similarity: 25
+The best individual: ['H', 28, 'S', 43, 'S']
+The time: 4990.0
+
+Mutation cutoff: 0.1
+The average number of generation: 46.3
+
+Mutation cutoff: 0.3
+The average number of generation: 53.02
+
+Mutation cutoff: 0.5
+The average number of generation: 50.64
+
+Mutation cutoff: 0.7
+The average number of generation: 49.2
+
+Mutation cutoff: 0.9
+The average number of generation: 52.1
+
+
+#Change the mutation range of the pitstop#
+
+Number of run: 50
+Number of pitstop: 2
+Range of mutation: 5
+Mutation cutoff: 0.5
+Fitness similarity: 25
+The best individual: ['H', 28, 'S', 43, 'S']
+The time: 4990.0
+
+Range of mutation: 5
+The average number of generation: 47.28
+
+Range of mutation: 10
+The average number of generation: 51.26
+
+Range of mutation: 15
+The average number of generation: 48.28
+
+Range of mutation: 20
+The average number of generation: 53.06
+
+Range of mutation: 25
+The average number of generation: 52.8
+
+
+#Change Fitness similarity#
+
+Number of run: 50
+Number of pitstop: 2
+Range of mutation: 10
+Mutation cutoff: 0.5
+The best individual: ['H', 28, 'S', 43, 'S']
+The time: 4990.0
+
+Fitness similarity: 25
+The average number of generation: 53.06
+
+Fitness similarity: 50
+The average number of generation: 81.92
+
+Fitness similarity: 100
+The average number of generation: 142.42
+
+
+#Change selection method#
+
+Number of run: 50
+Number of pitstop: 2
+Range of mutation: 10
+Mutation cutoff: 0.5
+Fitness similarity: 25
+The best individual: ['H', 28, 'S', 43, 'S']
+The time: 4990.0
+
+Selection method: fittest half
+The average number of generation: 47.02
+
+Selection method: random
+The average number of generation: 53.3
+
+
+#Change pairing method#
+
+Number of run: 50
+Number of pitstop: 2
+Range of mutation: 10
+Mutation cutoff: 0.5
+Fitness similarity: 25
+The best individual: ['H', 28, 'S', 43, 'S']
+The time: 4990.0
+
+Pairing method: random
+The average number of generation: 47.14
+
+Pairing method: fittest
+The average number of generation: 49.72
+
+
+#Change mating method#
+
+Number of pitstop: 2
+Range of mutation: 10
+Mutation cutoff: 0.5
+Fitness similarity: 25
+The best individual: ['H', 28, 'S', 43, 'S']
+The time: 4990.0
+
+Mating method: Single point
+The average number of generation: 46.48
+
+Mating method: Two points
+The average number of generation: 49.02
+
