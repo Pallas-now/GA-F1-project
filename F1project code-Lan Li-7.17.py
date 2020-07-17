@@ -10,7 +10,7 @@ from random import random as rnd
 
 tyre_list = ['S', 'M', 'H']
 
-#Astrilia
+#Austrilia
 laps_in_total= 58
 tb =84
 overtake_delta = 0.8
